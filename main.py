@@ -6,7 +6,7 @@ hang = int(input("Nhập số hàng: "))
 so_do = [["_" for _ in range(cot)] for _ in range(hang)]
 
 def hien_thi_so_do():
-    print("\n--- SƠ ĐỒ CHỖ NGỒI ---")
+    print("\n---CHỖ NGỒI ---")
     for r in range(hang):
         for c in range(cot):
             print(so_do[r][c], end=" ")
